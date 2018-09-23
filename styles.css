@@ -12,7 +12,9 @@ body > header, body > main, body > footer {
 }
 
 body > footer {
-  font-size: 80%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 75%;
   text-align: right;
 }
 
