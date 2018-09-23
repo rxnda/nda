@@ -1,4 +1,41 @@
 html {
   font-family: sans-serif;
   line-height: 1.4;
+  font-size: 125%;
+  hyphens: auto;
+  text-align: justify;
+}
+
+body > header, body > main, body > footer {
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+body > footer {
+  font-size: 80%;
+  text-align: right;
+}
+
+.conspicuous {
+  font-weight: bold;
+  font-style: italic;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+section h1 {
+}
+
+section h2 {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
