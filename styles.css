@@ -1,36 +1,33 @@
 html {
   font-family: sans-serif;
-  line-height: 1.4;
   font-size: 125%;
   hyphens: auto;
+  line-height: 1.4;
   text-align: justify;
 }
 
 body > header, body > main, body > footer {
-  max-width: 33rem;
   margin: 0 auto;
+  max-width: 33rem;
 }
 
 body > footer {
-  margin-top: 5rem;
-  margin-bottom: 2rem;
   font-size: 75%;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
   text-align: right;
 }
 
 .conspicuous {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
 
 section {
   margin-top: 3rem;
 }
 
-section h1 {
-}
-
-section h2 {
+h2 {
   font-size: 100%;
 }
 
