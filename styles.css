@@ -56,3 +56,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.blank {
+  border-bottom: 1px dashed black;
+  color: #666;
+}
