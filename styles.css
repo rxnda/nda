@@ -11,6 +11,11 @@ body > header, body > main, body > footer {
   max-width: 33rem;
 }
 
+.page {
+  margin-top: 1rem;
+  max-width: 10rem;
+}
+
 body > header {
   text-align: center;
 }
