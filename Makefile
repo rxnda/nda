@@ -1,4 +1,4 @@
-FORMATS=docx rtf pdf
+FORMATS=docx rtf pdf odt
 DOCX=$(wildcard *.docx)
 
 all: $(foreach version,$(DOCX),$(addprefix $(version:.docx=).,$(FORMATS)))
@@ -8,3 +8,6 @@ all: $(foreach version,$(DOCX),$(addprefix $(version:.docx=).,$(FORMATS)))
 
 %.pdf: %.docx
 	unoconv -f pdf $<
+
+%.odt: %.docx
+	unoconv -f odt $<
