@@ -1,5 +1,6 @@
+FILES=files
 FORMATS=docx rtf pdf odt
-DOCX=$(wildcard *.docx)
+DOCX=$(wildcard $(FILES)/*.docx)
 
 all: $(foreach version,$(DOCX),$(addprefix $(version:.docx=).,$(FORMATS)))
 
