@@ -58,6 +58,6 @@ a:hover {
 }
 
 .blank {
-  border-bottom: 1px dashed black;
+  border-bottom: 1px dashed #666;
   color: #666;
 }
