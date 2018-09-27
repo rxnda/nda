@@ -11,6 +11,19 @@ body > header, body > main, body > footer {
   max-width: 33rem;
 }
 
+body > header {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.catchphrase {
+  font-style: italic;
+  margin-top: 0;
+}
+
 body > footer {
   font-size: 75%;
   margin-bottom: 2rem;
