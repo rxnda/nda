@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync  --archive --compress --force --delete --progress --exclude '.git' --exclude publish . rxnda@obviousnda.com:/var/www/obviousnda.com/
+rsync  --archive --compress --force --delete --progress --exclude '.git' --exclude publish . rxnda@nda.lostserif.com:/var/www/nda.lostserif.com/

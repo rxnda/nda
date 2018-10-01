@@ -1,14 +1,14 @@
 FILES=files
 FORMATS=docx rtf pdf odt
-DOCX=$(wildcard $(FILES)/*.docx)
+DOCX=$(wildcard $(FILES)/*.odt)
 
-all: $(foreach version,$(DOCX),$(addprefix $(version:.docx=).,$(FORMATS)))
+all: $(foreach version,$(DOCX),$(addprefix $(version:.odt=).,$(FORMATS)))
 
-%.rtf: %.docx
+%.rtf: %.odt
 	unoconv -f rtf $<
 
-%.pdf: %.docx
+%.pdf: %.odt
 	unoconv -f pdf $<
 
-%.odt: %.docx
-	unoconv -f odt $<
+%.docx: %.odt
+	unoconv -f docx $<
